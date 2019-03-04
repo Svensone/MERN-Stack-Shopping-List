@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-// Create Schema
+// Creating a Express API to communicate with DB
+// creating a Schema
+
 const ItemSchema = new Schema({
   name: {
     type: String,

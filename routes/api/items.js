@@ -33,4 +33,5 @@ router.delete('/:id', (req, res) => {
     .catch(err => res.status(404).json({ success: false }));
 });
 
+// no Babel so no ES6 (with ES "export default router")
 module.exports = router;

@@ -11,6 +11,7 @@ import {
 } from 'reactstrap';
 
 class AppNavbar extends Component {
+      // no need for constructor()... since toggle function needs no binding since its a arrow function
   state = {
     isOpen: false
   };
